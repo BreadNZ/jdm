@@ -211,14 +211,58 @@ footer details{
         margin-right: 1vw;
         
     }  
-    .intro img p{
-        display: inline-block;
-        justify-content: en;
-    } 
+    .intro h1{
+        font-size: 4em;
+    }
     .intro img{
         width: 30%;
+        margin-left: 0vw;
+        margin-left: 4vw;
     }
     .intro p{
-        width: 20vw;
+        font-size: 2em;
+        text-align: right;
+        width: 50%;
+    }
+    .initiald p{
+        font-size: 2em;
+    }
+    .initiald img{
+        width: 400%;
+    }
+    .side{
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+    .fast h1{
+        font-size: 3.5em;
+    }
+    .fast p {
+        text-align: right;
+        width: 40%;
+        font-size: 1.8em;
+    }
+    .fast img{
+        width: 30%;
+        padding-left: 4vw;
+        padding-bottom: 2vh;
+    }
+    .people {
+        padding-bottom: 3vh;
+    }
+    .people h1{
+        font-size: 4em;
+    }
+    .people h2{
+        font-size: 3em;
+    }
+    .people p{
+        font-size: 2em;
+    }
+    .people img{
+        width: 49%;
+        padding-left: 4vw;
+        border-radius: 15%;
     }
   }
