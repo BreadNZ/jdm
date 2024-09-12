@@ -194,7 +194,8 @@ footer details{
     }
     .carstats p{
         padding-right: 4vw;
-        padding-bottom: 3vh;    
+        padding-bottom: 3vh; 
+        font-size: 2em;   
     }
     .carstats img {
         width: 40%;
@@ -214,7 +215,12 @@ footer details{
         border-top-left-radius: 20%;
         border-bottom-left-radius: 20%; 
     }
+    .carstats li{
+        font-family: kosugi;
+        font-size: 2em;
+    }
     .rx7 img{
         background-color: transparent;
+        width: 49%;
     }
   }
