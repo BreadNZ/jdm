@@ -116,7 +116,7 @@ main{
     font-family: kosugi;
     font-size: 1em;
     padding-left: 4vw;
-    width: 90%;
+    width: 100%;
 }
 .carstats img{
     width: 100%;
@@ -182,4 +182,39 @@ footer details{
         margin-right: 1vw;
         
     }   
+    .intro h1{
+        padding-top: 3vh;
+    }
+    .intro p{
+        font-size: 2em;
+        padding-left: 4vw;
+    }
+    .carstats h2{
+        padding-right: 4vw;
+    }
+    .carstats p{
+        padding-right: 4vw;
+        padding-bottom: 3vh;    
+    }
+    .carstats img {
+        width: 40%;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        background-color: gray;
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 20%;
+    }
+    .odd{
+        text-align: right;
+        
+    }
+    .odd img{
+        border-top-right-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-top-left-radius: 20%;
+        border-bottom-left-radius: 20%; 
+    }
+    .rx7 img{
+        background-color: transparent;
+    }
   }
