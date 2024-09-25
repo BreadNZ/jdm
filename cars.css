@@ -15,7 +15,6 @@ main{
 }
 
 
-
 /* Main Heading For All Pages */
 .title {
     background-color: rgba(67, 67, 67, 1);
@@ -148,6 +147,7 @@ footer details{
     font-size: 1em;
     padding-bottom: 4vh;
 }
+/* Desktop Version */
 @media only screen and (min-width: 1200px) {
     /* Style For NavBar */
     .navbar {
@@ -156,7 +156,7 @@ footer details{
         padding: 0;
         overflow: hidden;
         background-color: #333;
-        position: -webkit-sticky; /* Safari */
+        position: -webkit-sticky; /* Makes Nav Bar Stay In Place */
         position: sticky;
         top: 0;
         display: flex;
